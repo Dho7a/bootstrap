@@ -1,0 +1,100 @@
+
+body {
+    padding-bottom: 250px;
+}
+.cover{
+    
+    width: 100%;
+    height: 250px;
+    background-color: #eee;
+    background: url('../res/cover.png') center no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+.photo{
+   position: relative;
+    top: -100px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0,.5) 
+}
+.coordonnees {
+    color: blue;
+    position: relative;
+    top: -90px;
+    display: block;
+    text-align: center;
+}
+.coordonnees i {
+    padding: 1px;
+}
+.coordonnees i:hover {
+    color:violet;
+    cursor: pointer;
+}
+.nom{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -90px;
+    color: #444;
+}
+.nom:hover {
+    color: blue;
+    cursor: default;
+}
+h1{
+     font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #2196F3;
+}
+h4{
+    font-family: fantasy;
+    color:dodgerblue;
+}
+.academic,.experience {
+    text-align:justify;
+    font-family:'Merriweather', serif; 
+}
+
+.fa {
+    font-size: 3em;
+    width: 2em;
+    height: 1.5em;
+    text-align: center;
+  }
+.interests .row {
+    margin-top: 30px;
+}
+.interests i {
+    color: #222;
+    padding: 10px;
+    transition: transform .5s;
+}
+
+.show {
+    left: 0 !important;
+    opacity: 1 !important;
+    transition: all .37s ease-in-out;
+    color:burlywood; !important;
+}
+
+.interests i:hover {
+    color:burlywood;
+    transform: rotate(360deg);
+    transition: all .37s;
+}
+.projects img {
+    border-radius: 3.5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    transition: box-shadow .3s;
+}
+.projects img:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow .3s;
+}
